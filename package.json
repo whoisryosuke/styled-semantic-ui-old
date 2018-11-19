@@ -22,8 +22,9 @@
   "author": "Ryosuke",
   "license": "MIT",
   "devDependencies": {
-    "@storybook/addon-options": "^3.4.10",
-    "@storybook/react": "^3.4.10",
+    "@storybook/addon-actions": "^4.0.7",
+    "@storybook/addon-options": "^4.0.7",
+    "@storybook/react": "^4.0.0",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
     "babel-eslint": "^8.2.6",
@@ -52,7 +53,8 @@
     "prop-types": "^15.6.2"
   },
   "dependencies": {
-    "react-jss": "^8.6.1"
+    "@babel/core": "^7.1.6",
+    "styled-components": "^4.1.1"
   },
   "jest": {
     "setupTestFrameworkScriptFile": "<rootDir>tests/setup/setupEnzyme.js",

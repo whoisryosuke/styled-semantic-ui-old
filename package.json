@@ -1,7 +1,7 @@
 {
-  "name": "design-system-jss",
+  "name": "styled-semantic-ui",
   "version": "1.0.0",
-  "description": "Boilerplate Design System using JSS and ReactJS",
+  "description": "Design System using Styled Components and ReactJS, inspired by Semantic UI",
   "main": "index.js",
   "scripts": {
     "build": "babel src -d lib",
@@ -16,7 +16,9 @@
     "design-system",
     "design-systems",
     "component-system",
-    "jss",
+    "styled-components",
+    "react-components",
+    "semantic-ui",
     "css-in-js"
   ],
   "author": "Ryosuke",

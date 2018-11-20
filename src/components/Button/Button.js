@@ -524,7 +524,7 @@ const StyledButton = styled(Button)`
   // Red
   &.red {
     background-color: ${props => props.theme.colors.red};
-    color: ${props => props.theme.textColors.red};
+    color: ${props => props.theme.colors.white};
     text-shadow: @redTextShadow;
     background-image: ${buttonTheme.coloredBackgroundImage};
   }
@@ -532,24 +532,24 @@ const StyledButton = styled(Button)`
     box-shadow: ${buttonTheme.coloredBoxShadow};
   }
   &.red:hover {
-    background-color: @redHover;
-    color: @redTextColor;
+    background-color: ${props => props.theme.hoverColors.red};
+    color: ${props => props.theme.colors.white};
     text-shadow: @redTextShadow;
   }
   &.red:focus {
-    background-color: @redFocus;
-    color: @redTextColor;
+    background-color: ${props => props.theme.focusColors.red};
+    color: ${props => props.theme.colors.white};
     text-shadow: @redTextShadow;
   }
   &.red:active {
-    background-color: @redDown;
-    color: @redTextColor;
+    background-color: ${props => props.theme.downColors.red};
+    color: ${props => props.theme.colors.white};
     text-shadow: @redTextShadow;
   }
   &.red.active,
   &.red .active:active {
-    background-color: @redActive;
-    color: @redTextColor;
+    background-color: ${props => props.theme.activeColors.red};
+    color: ${props => props.theme.colors.white};
     text-shadow: @redTextShadow;
   }
 `;

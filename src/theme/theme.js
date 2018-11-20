@@ -1,3 +1,5 @@
+import Color from "color";
+
 /**
  * Creates column percentages based on column count
  */
@@ -105,7 +107,30 @@ const textColors = {
 };
 
 const hoverColors = {
-  red: colors.red
+  red: Color(colors.red)
+    .darken(0.5)
+    .saturate(0.5)
+    .hex()
+};
+
+const focusColors = {
+  red: Color(colors.red)
+    .darken(0.8)
+    .saturate(0.8)
+    .hex()
+};
+
+const downColors = {
+  red: Color(colors.red)
+    .darken(1)
+    .hex()
+};
+
+const activeColors = {
+  red: Color(colors.red)
+    .darken(0.5)
+    .saturate(0.7)
+    .hex()
 };
 
 const sizes = {
@@ -227,6 +252,10 @@ const theme = {
   // Import any external objects for easy access
   colors,
   textColors,
+  hoverColors,
+  focusColors,
+  downColors,
+  activeColors,
   weight,
   sizes,
   border,

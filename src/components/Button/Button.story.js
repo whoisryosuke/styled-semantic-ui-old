@@ -21,7 +21,7 @@ storiesOf("Button", module)
   ))
   .add("inverted", () => (
     <ThemeProvider theme={theme}>
-      <Button className="inverted" onClick={action("clicked")}>
+      <Button className="inverted red" onClick={action("clicked")}>
         Inverted Button
       </Button>
     </ThemeProvider>

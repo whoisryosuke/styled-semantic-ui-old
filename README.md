@@ -1,6 +1,6 @@
-# JSS Design System Boilerplate
+# Styled Semantic UI Components
 
-Boilerplate Design System using JSS and ReactJS
+Design System using Styled Components and ReactJS, based on [Semantic UI](http://semantic-ui.com_
 
 ## Development
 
@@ -25,7 +25,7 @@ Requirements
 
 The goal is to keep the package as lightweight and minimal as possible, so there's not much to it. If you look at the `package.json`, you'll see a few dev dependencies like Babel, React, and Storybook.
 
-In terms of actual dependencies, we only have React-JSS, since it's used in the actual components. React and react-dom are peer-deps (since the project's using this will be react-based).
+In terms of actual dependencies, we only have Styled Components, since it's used in the actual components. React and react-dom are peer-deps (since the project's using this will be react-based).
 
 #### Folder Structure
 
